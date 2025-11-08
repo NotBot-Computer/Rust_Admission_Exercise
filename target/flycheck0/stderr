@@ -1,0 +1,349 @@
+   0.006281750s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust_nmm"}: cargo::core::compiler::fingerprint: fingerprint error for rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rust_nmm", ["lib"], "/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/src/lib.rs", Edition2024) }
+   0.006305792s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust_nmm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rust-nmm-e98190331ce63e6c/lib-rust_nmm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.008379042s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.9.2/Check { test: false }/TargetInner { ..: lib_target("rand", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.9.2/src/lib.rs", Edition2021) }
+   0.008384000s  INFO prepare_target{force=false package_id=rand v0.9.2 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rand-89346cb66539aa3d/lib-rand`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.008540833s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.9.0/Check { test: false }/TargetInner { ..: lib_target("rand_chacha", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.9.0/src/lib.rs", Edition2021) }
+   0.008544083s  INFO prepare_target{force=false package_id=rand_chacha v0.9.0 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rand_chacha-8b1fa0c50a0fb108/lib-rand_chacha`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.008697458s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.21/src/lib.rs", Edition2021) }
+   0.008700500s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/ppv-lite86-b1d2de789071316d/lib-ppv_lite86`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.008837333s  INFO prepare_target{force=false package_id=zerocopy v0.8.26 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.26/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.26/src/lib.rs", Edition2021) }
+   0.008840500s  INFO prepare_target{force=false package_id=zerocopy v0.8.26 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/zerocopy-c0aef8f5daa47728/lib-zerocopy`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.009066458s  INFO prepare_target{force=false package_id=rand_core v0.9.3 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.9.3/Check { test: false }/TargetInner { ..: lib_target("rand_core", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.9.3/src/lib.rs", Edition2021) }
+   0.009069500s  INFO prepare_target{force=false package_id=rand_core v0.9.3 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rand_core-f1027c494d36a1cb/lib-rand_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.009264542s  INFO prepare_target{force=false package_id=getrandom v0.3.3 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.3.3/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.3.3/src/lib.rs", Edition2021) }
+   0.009268083s  INFO prepare_target{force=false package_id=getrandom v0.3.3 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/getrandom-22e22560ba9366f3/lib-getrandom`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.009412875s  INFO prepare_target{force=false package_id=cfg-if v1.0.3 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.3/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.3/src/lib.rs", Edition2018) }
+   0.009415417s  INFO prepare_target{force=false package_id=cfg-if v1.0.3 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/cfg-if-329d4a40b989b048/lib-cfg_if`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.009604042s  INFO prepare_target{force=false package_id=libc v0.2.175 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.175/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "/Users/berkantkucukomer/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.175/src/lib.rs", Edition2021) }
+   0.009606833s  INFO prepare_target{force=false package_id=libc v0.2.175 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/libc-a8f6734a9c95f631/lib-libc`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.009832292s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust_nmm"}: cargo::core::compiler::fingerprint: fingerprint error for rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("rust_nmm", ["lib"], "/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/src/lib.rs", Edition2024) }
+   0.009835792s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust_nmm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rust-nmm-50e2c0a05bc85348/test-lib-rust_nmm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.009986083s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust-nmm"}: cargo::core::compiler::fingerprint: fingerprint error for rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)/Check { test: false }/TargetInner { name: "rust-nmm", doc: true, ..: with_path("/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/src/main.rs", Edition2024) }
+   0.009989958s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust-nmm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rust-nmm-7548b6832d864d5c/bin-rust-nmm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.010148292s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust-nmm"}: cargo::core::compiler::fingerprint: fingerprint error for rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)/Check { test: true }/TargetInner { name: "rust-nmm", doc: true, ..: with_path("/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/src/main.rs", Edition2024) }
+   0.010151000s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="rust-nmm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rust-nmm-7c5c0376d7aa8c11/test-bin-rust-nmm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.010311500s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="nmm"}: cargo::core::compiler::fingerprint: fingerprint error for rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)/Check { test: true }/TargetInner { kind: "test", name: "nmm", benched: false, ..: with_path("/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/tests/nmm.rs", Edition2024) }
+   0.010314500s  INFO prepare_target{force=false package_id=rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108) target="nmm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/berkantkucukomer/Desktop/Admission Exercise-20251108/target/debug/.fingerprint/rust-nmm-7efb6cdcb4b6a4e0/test-integration-test-nmm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking cfg-if v1.0.3
+    Checking libc v0.2.175
+    Checking zerocopy v0.8.26
+    Checking getrandom v0.3.3
+    Checking rand_core v0.9.3
+    Checking ppv-lite86 v0.2.21
+    Checking rand_chacha v0.9.0
+    Checking rand v0.9.2
+    Checking rust-nmm v0.1.0 (/Users/berkantkucukomer/Desktop/Admission Exercise-20251108)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.96s
